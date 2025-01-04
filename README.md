@@ -13,7 +13,7 @@ There is a database of 100k people that all have manually/self-entered universit
 #### sql
 This directory contains my sql table API for modifying the related tables in the NBER database to eventually be displayed on the website.
 
-`canonical_table_functions.py` 
+`standardized_univaffils_table_functions.py` 
 * This file contains functions that allow for the modification of the table that contains the canonical university affiliation values.                
 
 `table_functions.py` 
