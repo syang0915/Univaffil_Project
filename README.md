@@ -38,8 +38,6 @@ In this folder, you want to import and push/pull the changes made to the spreads
 `working_paper_author_get_std_name_to_tsv.py`
 * gets the scores of working paper authors matched to the canonical_values table
 
-#### utils
-
 ### **Getting the Standardized Canonical List:**
 Run the script `get_canonical_values.py` in \utils\verified_list 
 
