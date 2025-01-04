@@ -44,14 +44,14 @@ In this folder, you want to import and push/pull the changes made to the spreads
 `working_paper_author_get_std_name_to_tsv.py`
 * gets the scores of working paper authors matched to the canonical_values table
 
-### **Getting the Standardized Canonical List:**
+### **Getting the Standardized Univaffil List:**
 Run the script `get_canonical_values.py` in \utils\verified_list 
 
 ## **Manual Work**
 I have put in a shared drive all the intermediate spreadsheets that will be needed to manually update the affiliations.
 
 ## **Flow**
-This is the ideal way for handling how to update the sql table after Greta finishes evaluating every University affiliations. 
+This is the ideal way for handling how to update the sql table the University affiliations have been reviewed. 
 
 ### Step 1: Updating the Spreadsheets
 Once all the spreadsheet work is done, export the `verified_affiliations` and `values_to_add` spreadsheets **as a tsv** and put them in either:
