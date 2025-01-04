@@ -9,8 +9,7 @@ There is a database of 100k people that all have manually/self-entered universit
 
 ## File Organization 
 
-### Directories in Use
-#### sql
+### sql
 This directory contains my sql table API for modifying the related tables in the NBER database to eventually be displayed on the website.
 
 `standardized_univaffils_table_functions.py` 
@@ -25,7 +24,7 @@ This directory contains my sql table API for modifying the related tables in the
 `sql_utilities`
 * Utility functions for sql queries such as **execute_sql** and connecting to the server
 
-#### src
+### src
 This is the folder with the main scripts needed to run.
 
 **spreadsheets**  
@@ -44,11 +43,8 @@ In this folder, you want to import and push/pull the changes made to the spreads
 `working_paper_author_get_std_name_to_tsv.py`
 * gets the scores of working paper authors matched to the canonical_values table
 
-### **Getting the Standardized Univaffil List:**
+## **Getting the Standardized Univaffil List:**
 Run the script `get_canonical_values.py` in \utils\verified_list 
-
-## **Manual Work**
-I have put in a shared drive all the intermediate spreadsheets that will be needed to manually update the affiliations.
 
 ## **Flow**
 This is the ideal way for handling how to update the sql table the University affiliations have been reviewed. 
