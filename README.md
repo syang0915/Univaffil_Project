@@ -1,7 +1,7 @@
 # **Standardizing Univaffils Plan/Approach**
 ##### by Sophia 
 
-## Pre-Face
+## Preface
 This is a sample of the code I wrote during my time at the NBER. Some references and names are purposefully made to be obscure and generalized.
 
 ### Summary of What I Did:
