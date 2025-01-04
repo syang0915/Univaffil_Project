@@ -4,6 +4,9 @@
 ## Pre-Face
 This is a sample of the code I wrote during my time at the NBER. Some references and names are purposefully made to be obscure and generalized.
 
+### Summary of What I Did:
+There is a database of 100k people that all have manually/self-entered university affiliations, and the first part of this project was to clean up and standardize the affiliations for all of these people. The data was cleaned and standardized, then I wrote a custom SQL table API in order to modify, maintain, and upkeep the SQL table that contains the list of standardized affiliation names. 
+
 ## File Organization 
 
 ### Directories in Use
